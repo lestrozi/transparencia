@@ -1,0 +1,7 @@
+Options Indexes FollowSymLinks ExecCGI
+AddHandler cgi-script .py
+DirectoryIndex index.py index.html index.php index.cgi index.pl index.htm
+
+<Files ~ "\.tpl$">
+Deny from all
+</Files>
